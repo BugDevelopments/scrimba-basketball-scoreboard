@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    margin: 20px auto;
+}
+
+@font-face {
+    font-family: CursedTimerULiL;
+    src: url("/assets/CursedTimerUlil-Aznm.ttf");
+}
+
+.scoreboard {
+    width: 135px;
+    height: 100px;
+    padding: 10px;
+    font-family: CursedTimerULiL;
+    color: #F94F6D;
+    background: black;
+    font-size: 90px;
+    margin-bottom: 26px;
+    line-height: 1.2
+}
+
+.btn {
+    background: inherit;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 15%;
+    width: 45px;
+    height: 45px;
+    font-family: CursedTimerULiL;
+    font-size: 18px;
+    line-height: 2.4;
+}
+
+.btn-container {
+    display: flex;
+    width: 155px;
+    justify-content: space-between;
+}
+.scoreboard-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    margin-bottom: 21px;
+    margin-top: 68px;
+}

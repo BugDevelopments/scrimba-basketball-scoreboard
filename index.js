@@ -12,3 +12,10 @@ function increaseGuest(n) {
     guestScore += n
     guestboardEl.innerText = guestScore
 }
+
+function resetGame() {
+    homeScore=0
+    guestScore=0
+    homeboardEl.innerText = homeScore    
+    guestboardEl.innerText = guestScore
+}

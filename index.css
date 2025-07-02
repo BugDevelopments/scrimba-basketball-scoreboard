@@ -26,7 +26,7 @@ body {
     background: black;
     font-size: 90px;
     margin-bottom: 26px;
-    line-height: 1.2
+    line-height: 1.2;
 }
 
 .btn {
@@ -39,6 +39,17 @@ body {
     font-family: CursedTimerULiL;
     font-size: 18px;
     line-height: 2.4;
+}
+
+.reset-btn {
+    background:inherit;
+    color: #9AABD8;
+    font-family: CursedTimerULiL;
+    font-size: 18px;
+    border-radius: 5%;
+    border: 2px solid #9AABD8;
+    margin-top: 10px;
+    height: 50px;
 }
 
 .btn-container {
